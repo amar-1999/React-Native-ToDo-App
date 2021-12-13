@@ -10,7 +10,16 @@ Assuming that you have Node 12 LTS or greater installed, you can use npm to inst
 
 `npm install -g expo-cli`
 
-Then run the following commands to create a new React Native project called "Your_ProjectName":
+Install all necessary libraries
+
+`npm install @react-navigation/native`
+
+`npm install @react-navigation/native-stack`
+
+`expo install react-native-screens react-native-safe-area-context`
+
+
+Then run the following commands to create a new React Native project with "Your_ProjectName":
 
 `expo init Your_ProjectName`
 
